@@ -12,12 +12,13 @@ DEBUG=<Either true or false>
 // main.go
 
 func init() {
-	config.Config()
+	settings.Config()
 	database.ConnectToDb()
 	database.SyncDatabase()
 }
 
 ...
-
-UserServer.ListenAndServe()
+func main() {
+	UserServer.ListenAndServe()
+}
 ```
