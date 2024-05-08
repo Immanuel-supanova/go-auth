@@ -11,5 +11,4 @@ type User struct {
 	IsStaff   bool
 	CreatedAt time.Time
 	UpdatedAt time.Time
-	LogEntry  LogEntry
 }
