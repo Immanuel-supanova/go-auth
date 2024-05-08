@@ -27,12 +27,3 @@ type Log struct {
 	// App name
 	Application string
 }
-
-type LogEntry struct {
-	ID         uint
-	ActionTime time.Time
-	UserID     uint
-	Object     string
-	ObjectID   uint
-	ActionFlag string
-}
