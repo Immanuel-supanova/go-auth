@@ -4,7 +4,7 @@
 ```
 // .env
 
-DB="host=host user=user password=pass dbname=dbname port=port sslmode=disable"
+GOAUTHDB="host=host user=user password=pass dbname=dbname port=port sslmode=disable"
 DEBUG=<Either true or false>
 ```
 
